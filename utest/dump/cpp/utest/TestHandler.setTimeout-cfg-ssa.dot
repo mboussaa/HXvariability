@@ -1,0 +1,70 @@
+digraph graphname {
+	node [shape=plaintext];
+n3211[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3211) BKNormal</td></tr>
+	<tr><td port="ep0" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="e0" align="left">this.expireson = _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3210[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3210) BKNormal</td></tr>
+	<tr><td port="ep0" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3209[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3209) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = this.expireson</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3208[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3208) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = newexpire</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3207[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3207) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = newexpire &gt; this.expireson</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3206[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3206) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = newexpire</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3205[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3205) BKFunctionEnd</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3204[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3204) BKFunctionBegin</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = haxe.Timer.stamp()</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp = timeout / 1000</td></tr>
+	<tr><td port="e2" align="left">var newexpire = _hx_tmp + _hx_tmp</td></tr>
+	<tr><td port="e3" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e4" align="left">var _hx_tmp = this.expireson == null</td></tr>
+	<tr><td port="e5" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1) BKRoot</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1:out -> n3204:in[label="CFGFunction"];
+n3204:out -> n3207:in[label="CFGCondElse"];
+n3204:out -> n3206:in[label="CFGCondBranch true"];
+n3206:out -> n3211:in[label="CFGGoto"];
+n3211:out -> n3205:in[label="CFGGoto"];
+n3207:out -> n3209:in[label="CFGCondElse"];
+n3207:out -> n3208:in[label="CFGCondBranch true"];
+n3208:out -> n3210:in[label="CFGGoto"];
+n3210:out -> n3211:in[label="CFGGoto"];
+n3209:out -> n3210:in[label="CFGGoto"];
+n3204:e2 -> n3208:e0[color=lightblue,constraint=false];
+n3204:e2 -> n3207:e0[color=lightblue,constraint=false];
+n3204:e2 -> n3206:e0[color=lightblue,constraint=false];
+n3206:e0 -> n3211:ep0[color=lightblue,constraint=false];
+n3208:e0 -> n3210:ep0[color=lightblue,constraint=false];
+n3210:ep0 -> n3211:ep0[color=lightblue,constraint=false];
+n3209:e0 -> n3210:ep0[color=lightblue,constraint=false];
+}

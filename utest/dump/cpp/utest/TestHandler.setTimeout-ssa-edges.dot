@@ -1,0 +1,62 @@
+digraph graphname {
+e3204_false_0 -> e3204_false_2;
+e3204_false_1 -> e3204_false_2;
+e3204_false_2 -> e3208_false_0;
+e3204_false_2 -> e3207_false_0;
+e3204_false_2 -> e3206_false_0;
+e3204_false_4 -> e3204_false_5;
+e3206_false_0 -> e3211_true_0;
+e3211_true_0 -> e3211_false_0;
+e3207_false_0 -> e3207_false_1;
+e3208_false_0 -> e3210_true_0;
+e3210_true_0 -> e3211_true_0;
+e3209_false_0 -> e3210_true_0;
+subgraph cluster_3211 {
+label=3211;
+style=filled;
+color=lightblue;
+e3211_false_0[shape=box,label="this.expireson = _hx_tmp"];
+e3211_true_0[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)"];
+}
+subgraph cluster_3210 {
+label=3210;
+style=filled;
+color=lightblue;
+e3210_true_0[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)"];
+}
+subgraph cluster_3209 {
+label=3209;
+style=filled;
+color=lightblue;
+e3209_false_0[shape=box,label="_hx_tmp = this.expireson"];
+}
+subgraph cluster_3208 {
+label=3208;
+style=filled;
+color=lightblue;
+e3208_false_0[shape=box,label="_hx_tmp = newexpire"];
+}
+subgraph cluster_3207 {
+label=3207;
+style=filled;
+color=lightblue;
+e3207_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3207_false_0[shape=box,label="var _hx_tmp = newexpire > this.expireson"];
+}
+subgraph cluster_3206 {
+label=3206;
+style=filled;
+color=lightblue;
+e3206_false_0[shape=box,label="_hx_tmp = newexpire"];
+}
+subgraph cluster_3204 {
+label=3204;
+style=filled;
+color=lightblue;
+e3204_false_5[shape=box,label="@:cond-branch _hx_tmp"];
+e3204_false_4[shape=box,label="var _hx_tmp = this.expireson == null"];
+e3204_false_2[shape=box,label="var newexpire = _hx_tmp + _hx_tmp"];
+e3204_false_1[shape=box,label="var _hx_tmp = timeout / 1000"];
+e3204_false_0[shape=box,label="var _hx_tmp = haxe.Timer.stamp()"];
+}
+}

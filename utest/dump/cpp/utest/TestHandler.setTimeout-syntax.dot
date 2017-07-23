@@ -1,0 +1,20 @@
+digraph graphname {
+n3211 [shape=box,label="(3211)\nthis.expireson = _hx_tmp"];
+n3210 [shape=box,label="(3210)"];
+n3209 [shape=box,label="(3209)\n_hx_tmp = this.expireson"];
+n3208 [shape=box,label="(3208)\n_hx_tmp = newexpire"];
+n3207 [shape=box,label="(3207)\nvar _hx_tmp = newexpire > this.expireson\n@:cond-branch _hx_tmp"];
+n3207 -> n3208[style="dashed",color="gray",label="then"];
+n3207 -> n3209[style="dashed",color="gray",label="else"];
+n3207 -> n3210[style="dashed",color="gray",label="next"];
+n3206 [shape=box,label="(3206)\n_hx_tmp = newexpire"];
+n3205 [shape=box,label="<function-end>
+(3205)"];
+n3204 [shape=box,label="<function-begin>
+(3204)\nvar _hx_tmp = haxe.Timer.stamp()\nvar _hx_tmp = timeout / 1000\nvar newexpire = _hx_tmp + _hx_tmp\nvar _hx_tmp\nvar _hx_tmp = this.expireson == null\n@:cond-branch _hx_tmp"];
+n3204 -> n3206[style="dashed",color="gray",label="then"];
+n3204 -> n3207[style="dashed",color="gray",label="else"];
+n3204 -> n3211[style="dashed",color="gray",label="next"];
+n1 [shape=box,label="<root>
+(1)"];
+}

@@ -1,0 +1,24 @@
+digraph graphname {
+n3211 [shape=box,label="(3211)\nScopes: 0\n_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)\nthis.expireson = _hx_tmp"];
+n3210 [shape=box,label="(3210)\nScopes: 2, 0\n_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)"];
+n3209 [shape=box,label="(3209)\nScopes: 4, 2, 0\n_hx_tmp = this.expireson"];
+n3208 [shape=box,label="(3208)\nScopes: 3, 2, 0\n_hx_tmp = newexpire"];
+n3207 [shape=box,label="(3207)\nScopes: 2, 0\nvar _hx_tmp = newexpire > this.expireson\n@:cond-branch _hx_tmp"];
+n3206 [shape=box,label="(3206)\nScopes: 1, 0\n_hx_tmp = newexpire"];
+n3205 [shape=box,label="<function-end>
+(3205)"];
+n3204 [shape=box,label="<function-begin>
+(3204)\nScopes: 0\nvar _hx_tmp = haxe.Timer.stamp()\nvar _hx_tmp = timeout / 1000\nvar newexpire = _hx_tmp + _hx_tmp\nvar _hx_tmp\nvar _hx_tmp = this.expireson == null\n@:cond-branch _hx_tmp"];
+n1 [shape=box,label="<root>
+(1)"];
+n1 -> n3204[label="function [dce, copy, exe]"];
+n3204 -> n3207[label="else [dce, copy, exe]"];
+n3204 -> n3206[label="branch [dce, copy, exe]"];
+n3206 -> n3211[label="goto [dce, copy, exe]"];
+n3211 -> n3205[label="goto [dce, copy, exe]"];
+n3207 -> n3209[label="else [dce, copy, exe]"];
+n3207 -> n3208[label="branch [dce, copy, exe]"];
+n3208 -> n3210[label="goto [dce, copy, exe]"];
+n3210 -> n3211[label="goto [dce, copy, exe]"];
+n3209 -> n3210[label="goto [dce, copy, exe]"];
+}

@@ -1,0 +1,37 @@
+digraph graphname {
+e1307_false_0 -> e1310_false_0;
+e1307_false_0 -> e1307_false_1;
+e1307_false_1 -> e1307_false_2;
+e1310_false_0 -> e1312_false_0;
+e1310_false_0 -> e1310_false_2;
+e1310_false_0 -> e1310_false_1;
+e1310_false_1 -> e1310_false_3;
+e1310_false_2 -> e1310_false_3;
+e1310_false_3 -> e1310_false_4;
+e1312_false_0 -> e1312_false_1;
+subgraph cluster_1312 {
+label=1312;
+style=filled;
+color=lightblue;
+e1312_false_1[shape=box,label="return haxe._Int64.___Int64.ofInt(x)"];
+e1312_false_0[shape=box,label="var x = haxe._Int64.___Int64.low(cast x)"];
+}
+subgraph cluster_1310 {
+label=1310;
+style=filled;
+color=lightblue;
+e1310_false_4[shape=box,label="@:cond-branch _hx_tmp"];
+e1310_false_3[shape=box,label="var _hx_tmp = cast _hx_tmp != cast _hx_tmp >> 31"];
+e1310_false_2[shape=box,label="var _hx_tmp = haxe._Int64.___Int64.low(cast x)"];
+e1310_false_1[shape=box,label="var _hx_tmp = haxe._Int64.___Int64.high(cast x)"];
+e1310_false_0[shape=box,label="var x = haxe._Int64.___Int64.mod(a,b)"];
+}
+subgraph cluster_1307 {
+label=1307;
+style=filled;
+color=lightblue;
+e1307_false_2[shape=box,label="@:cond-branch _hx_tmp"];
+e1307_false_1[shape=box,label="var _hx_tmp = haxe._Int64.___Int64.isZero(a)"];
+e1307_false_0[shape=box,label="var a = @:implicitCast cast haxe._Int64.___Int64.ofInt(a)"];
+}
+}

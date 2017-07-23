@@ -1,0 +1,10 @@
+digraph graphname {
+n1262 [shape=box,label="<function-end>
+(1262)"];
+n1261 [shape=box,label="<function-begin>
+(1261)\nScopes: 0\nreturn haxe._Int64.___Int64.preIncrement(this)"];
+n1 [shape=box,label="<root>
+(1)"];
+n1 -> n1261[label="function [exe]"];
+n1261 -> n1262[label="goto [exe]"];
+}

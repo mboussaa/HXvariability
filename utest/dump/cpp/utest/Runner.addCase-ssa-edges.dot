@@ -1,0 +1,274 @@
+digraph graphname {
+e3086_true_0 -> e3086_true_0;
+e3086_true_0 -> e3084_false_0;
+e3088_true_0 -> e3088_true_0;
+e3088_true_0 -> e3086_false_0;
+e3106_true_0 -> e3105_false_0;
+e3106_true_0 -> e3119_true_0;
+e3106_true_0 -> e3089_false_0;
+e3095_true_1 -> e3095_true_1;
+e3095_true_2 -> e3095_true_2;
+e3095_true_3 -> e3095_true_3;
+e3095_true_4 -> e3095_true_4;
+e3109_true_1 -> e3109_true_1;
+e3109_true_2 -> e3109_true_2;
+e3109_true_3 -> e3109_true_3;
+e3109_true_4 -> e3109_true_4;
+e3081_false_0 -> e3081_false_1;
+e3084_false_0 -> e3084_false_1;
+e3085_false_0 -> e3086_true_0;
+e3086_true_0 -> e3116_false_0;
+e3086_true_0 -> e3102_false_0;
+e3086_false_0 -> e3086_false_1;
+e3087_false_0 -> e3088_true_0;
+e3088_true_0 -> e3116_false_0;
+e3088_true_0 -> e3102_false_0;
+e3088_false_0 -> e3088_false_1;
+e3088_false_1 -> e3112_false_0;
+e3088_false_1 -> e3110_false_0;
+e3088_false_1 -> e3098_false_0;
+e3088_false_1 -> e3096_false_0;
+e3088_false_3 -> e3088_false_4;
+e3089_false_0 -> e3091_true_0;
+e3091_true_0 -> e3091_false_0;
+e3092_false_0 -> e3095_true_0;
+e3095_true_0 -> e3098_false_1;
+e3095_true_0 -> e3098_false_0;
+e3095_true_0 -> e3096_false_0;
+e3095_true_4 -> e3095_true_4;
+e3096_false_0 -> e3095_true_1;
+e3096_false_0 -> e3095_true_1;
+e3096_false_0 -> e3095_true_1;
+e3096_false_0 -> e3096_false_1;
+e3098_false_0 -> e3095_true_2;
+e3098_false_0 -> e3102_false_0;
+e3098_false_0 -> e3095_true_2;
+e3098_false_0 -> e3100_false_0;
+e3098_false_0 -> e3095_true_2;
+e3098_false_0 -> e3098_false_2;
+e3098_false_1 -> e3095_true_0;
+e3098_false_1 -> e3095_true_0;
+e3098_false_1 -> e3095_true_0;
+e3098_false_2 -> e3095_true_3;
+e3098_false_2 -> e3095_true_3;
+e3098_false_2 -> e3095_true_3;
+e3098_false_2 -> e3098_false_3;
+e3100_false_0 -> e3095_true_4;
+e3100_false_0 -> e3095_true_4;
+e3100_false_0 -> e3100_false_1;
+e3093_false_0 -> e3093_false_1;
+e3104_false_0 -> e3106_true_0;
+e3106_true_0 -> e3112_false_2;
+e3106_true_0 -> e3119_true_0;
+e3107_false_0 -> e3109_true_0;
+e3109_true_0 -> e3112_false_1;
+e3109_true_0 -> e3112_false_0;
+e3109_true_0 -> e3110_false_0;
+e3109_true_4 -> e3109_true_4;
+e3110_false_0 -> e3109_true_1;
+e3110_false_0 -> e3109_true_1;
+e3110_false_0 -> e3109_true_1;
+e3110_false_0 -> e3110_false_1;
+e3112_false_0 -> e3109_true_2;
+e3112_false_0 -> e3116_false_0;
+e3112_false_0 -> e3109_true_2;
+e3112_false_0 -> e3114_false_0;
+e3112_false_0 -> e3109_true_2;
+e3112_false_0 -> e3112_false_2;
+e3112_false_1 -> e3109_true_0;
+e3112_false_1 -> e3109_true_0;
+e3112_false_1 -> e3109_true_0;
+e3112_false_2 -> e3109_true_3;
+e3112_false_2 -> e3109_true_3;
+e3112_false_2 -> e3109_true_3;
+e3112_false_2 -> e3112_false_3;
+e3114_false_0 -> e3109_true_4;
+e3114_false_0 -> e3109_true_4;
+e3114_false_0 -> e3114_false_1;
+e3105_false_0 -> e3106_true_0;
+e3090_false_0 -> e3091_true_0;
+subgraph cluster_3119 {
+label=3119;
+style=filled;
+color=lightblue;
+e3119_true_0[shape=box,label="pattern = \"phi\"(pattern,pattern)"];
+}
+subgraph cluster_3116 {
+label=3116;
+style=filled;
+color=lightblue;
+e3116_false_0[shape=box,label="this.addFixture(new utest.TestFixture(test,field,setup,teardown))"];
+}
+subgraph cluster_3114 {
+label=3114;
+style=filled;
+color=lightblue;
+e3114_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3114_false_0[shape=box,label="var _hx_tmp = ! this.isMethod(test,field)"];
+}
+subgraph cluster_3112 {
+label=3112;
+style=filled;
+color=lightblue;
+e3112_false_3[shape=box,label="@:cond-branch _hx_tmp"];
+e3112_false_2[shape=box,label="var _hx_tmp = ! pattern.match(field)"];
+e3112_false_1[shape=box,label="` = ` + 1"];
+e3112_false_0[shape=box,label="var field = fields[`]"];
+}
+subgraph cluster_3110 {
+label=3110;
+style=filled;
+color=lightblue;
+e3110_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3110_false_0[shape=box,label="var _hx_tmp = ! ((` < fields.length))"];
+}
+subgraph cluster_3109 {
+label=3109;
+style=filled;
+color=lightblue;
+e3109_true_4[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)"];
+e3109_true_3[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)"];
+e3109_true_2[shape=box,label="field = \"phi\"(field,field,field,field)"];
+e3109_true_1[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)"];
+e3109_true_0[shape=box,label="` = \"phi\"(`,`,`,`)"];
+}
+subgraph cluster_3107 {
+label=3107;
+style=filled;
+color=lightblue;
+e3107_false_0[shape=box,label="var ` = 0"];
+}
+subgraph cluster_3106 {
+label=3106;
+style=filled;
+color=lightblue;
+e3106_true_0[shape=box,label="pattern = \"phi\"(pattern,pattern)"];
+}
+subgraph cluster_3105 {
+label=3105;
+style=filled;
+color=lightblue;
+e3105_false_0[shape=box,label="pattern = pattern"];
+}
+subgraph cluster_3104 {
+label=3104;
+style=filled;
+color=lightblue;
+e3104_false_0[shape=box,label="pattern = this.globalPattern"];
+}
+subgraph cluster_3102 {
+label=3102;
+style=filled;
+color=lightblue;
+e3102_false_0[shape=box,label="this.addFixture(new utest.TestFixture(test,field,setup,teardown))"];
+}
+subgraph cluster_3100 {
+label=3100;
+style=filled;
+color=lightblue;
+e3100_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3100_false_0[shape=box,label="var _hx_tmp = ! this.isMethod(test,field)"];
+}
+subgraph cluster_3098 {
+label=3098;
+style=filled;
+color=lightblue;
+e3098_false_3[shape=box,label="@:cond-branch _hx_tmp"];
+e3098_false_2[shape=box,label="var _hx_tmp = ! StringTools.startsWith(field,prefix)"];
+e3098_false_1[shape=box,label="` = ` + 1"];
+e3098_false_0[shape=box,label="var field = fields[`]"];
+}
+subgraph cluster_3096 {
+label=3096;
+style=filled;
+color=lightblue;
+e3096_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3096_false_0[shape=box,label="var _hx_tmp = ! ((` < fields.length))"];
+}
+subgraph cluster_3095 {
+label=3095;
+style=filled;
+color=lightblue;
+e3095_true_4[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)"];
+e3095_true_3[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)"];
+e3095_true_2[shape=box,label="field = \"phi\"(field,field,field,field)"];
+e3095_true_1[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)"];
+e3095_true_0[shape=box,label="` = \"phi\"(`,`,`,`)"];
+}
+subgraph cluster_3093 {
+label=3093;
+style=filled;
+color=lightblue;
+e3093_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3093_false_0[shape=box,label="var _hx_tmp = this.globalPattern != null"];
+}
+subgraph cluster_3092 {
+label=3092;
+style=filled;
+color=lightblue;
+e3092_false_0[shape=box,label="var ` = 0"];
+}
+subgraph cluster_3091 {
+label=3091;
+style=filled;
+color=lightblue;
+e3091_false_0[shape=box,label="@:cond-branch _hx_tmp"];
+e3091_true_0[shape=box,label="_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)"];
+}
+subgraph cluster_3090 {
+label=3090;
+style=filled;
+color=lightblue;
+e3090_false_0[shape=box,label="_hx_tmp = false"];
+}
+subgraph cluster_3089 {
+label=3089;
+style=filled;
+color=lightblue;
+e3089_false_0[shape=box,label="_hx_tmp = pattern == null"];
+}
+subgraph cluster_3088 {
+label=3088;
+style=filled;
+color=lightblue;
+e3088_false_4[shape=box,label="@:cond-branch _hx_tmp"];
+e3088_false_3[shape=box,label="var _hx_tmp = this.globalPattern == null"];
+e3088_false_1[shape=box,label="var fields = Type.getInstanceFields(_hx_tmp)"];
+e3088_false_0[shape=box,label="var _hx_tmp = Type.getClass(test)"];
+e3088_true_0[shape=box,label="teardown = \"phi\"(teardown,teardown)"];
+}
+subgraph cluster_3087 {
+label=3087;
+style=filled;
+color=lightblue;
+e3087_false_0[shape=box,label="teardown = null"];
+}
+subgraph cluster_3086 {
+label=3086;
+style=filled;
+color=lightblue;
+e3086_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3086_false_0[shape=box,label="var _hx_tmp = ! this.isMethod(test,teardown)"];
+e3086_true_0[shape=box,label="setup = \"phi\"(setup,setup)"];
+}
+subgraph cluster_3085 {
+label=3085;
+style=filled;
+color=lightblue;
+e3085_false_0[shape=box,label="setup = null"];
+}
+subgraph cluster_3084 {
+label=3084;
+style=filled;
+color=lightblue;
+e3084_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3084_false_0[shape=box,label="var _hx_tmp = ! this.isMethod(test,setup)"];
+}
+subgraph cluster_3081 {
+label=3081;
+style=filled;
+color=lightblue;
+e3081_false_1[shape=box,label="@:cond-branch _hx_tmp"];
+e3081_false_0[shape=box,label="var _hx_tmp = ! Reflect.isObject(test)"];
+}
+}

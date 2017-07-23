@@ -1,0 +1,20 @@
+digraph graphname {
+n1312 [shape=box,label="(1312)\nScopes: 0\nvar x = haxe._Int64.___Int64.low(cast x)\nreturn haxe._Int64.___Int64.ofInt(x)"];
+n1311 [shape=box,label="(1311)\nScopes: 2, 0\nthrow \"Overflow\""];
+n1310 [shape=box,label="(1310)\nScopes: 0\nvar x = haxe._Int64.___Int64.mod(a,b)\nvar _hx_tmp = haxe._Int64.___Int64.high(cast x)\nvar _hx_tmp = haxe._Int64.___Int64.low(cast x)\nvar _hx_tmp = cast _hx_tmp != cast _hx_tmp >> 31\n@:cond-branch _hx_tmp"];
+n1309 [shape=box,label="(1309)\nScopes: 1, 0\nthrow \"divide by zero\""];
+n1308 [shape=box,label="<function-end>
+(1308)"];
+n1307 [shape=box,label="<function-begin>
+(1307)\nScopes: 0\nvar a = @:implicitCast cast haxe._Int64.___Int64.ofInt(a)\nvar _hx_tmp = haxe._Int64.___Int64.isZero(a)\n@:cond-branch _hx_tmp"];
+n1 [shape=box,label="<root>
+(1)"];
+n1 -> n1307[label="function [dce, copy, exe]"];
+n1307 -> n1310[label="else [dce, copy, exe]"];
+n1307 -> n1309[label="branch [dce, copy, exe]"];
+n1309 -> n1308[label="goto [dce, copy, exe]"];
+n1310 -> n1312[label="else [dce, copy, exe]"];
+n1310 -> n1311[label="branch [dce, copy, exe]"];
+n1311 -> n1308[label="goto [dce, copy, exe]"];
+n1312 -> n1308[label="goto [dce, copy, exe]"];
+}

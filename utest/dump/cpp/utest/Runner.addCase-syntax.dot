@@ -1,0 +1,84 @@
+digraph graphname {
+n3119 [shape=box,label="(3119)"];
+n3118 [shape=box,label="(3118)"];
+n3117 [shape=box,label="(3117)"];
+n3116 [shape=box,label="(3116)\nthis.addFixture(new utest.TestFixture(test,field,setup,teardown))"];
+n3115 [shape=box,label="(3115)\ncontinue"];
+n3114 [shape=box,label="(3114)\nvar _hx_tmp = ! this.isMethod(test,field)\n@:cond-branch _hx_tmp"];
+n3114 -> n3115[style="dashed",color="gray",label="then"];
+n3114 -> n3116[style="dashed",color="gray",label="next"];
+n3113 [shape=box,label="(3113)\ncontinue"];
+n3112 [shape=box,label="(3112)\nvar field = fields[`]\n` = ` + 1\nvar _hx_tmp = ! pattern.match(field)\n@:cond-branch _hx_tmp"];
+n3112 -> n3113[style="dashed",color="gray",label="then"];
+n3112 -> n3114[style="dashed",color="gray",label="next"];
+n3111 [shape=box,label="(3111)\nbreak"];
+n3110 [shape=box,label="(3110)\nvar _hx_tmp = ! ((` < fields.length))\n@:cond-branch _hx_tmp"];
+n3110 -> n3111[style="dashed",color="gray",label="then"];
+n3110 -> n3112[style="dashed",color="gray",label="next"];
+n3109 [shape=box,label="<loop-head>
+(3109)"];
+n3108 [shape=box,label="(3108)\nwhile ((true)) @:block 3110"];
+n3108 -> n3109[style="dashed",color="gray",label="loop-head"];
+n3108 -> n3110[style="dashed",color="gray",label="loop-body"];
+n3108 -> n3117[style="dashed",color="gray",label="next"];
+n3107 [shape=box,label="(3107)\nvar ` = 0"];
+n3107 -> n3108[style="dashed",color="gray",label="merge"];
+n3106 [shape=box,label="(3106)"];
+n3106 -> n3107[style="dashed",color="gray",label="sub"];
+n3106 -> n3118[style="dashed",color="gray",label="next"];
+n3105 [shape=box,label="(3105)\npattern = pattern"];
+n3104 [shape=box,label="(3104)\npattern = this.globalPattern"];
+n3103 [shape=box,label="(3103)"];
+n3102 [shape=box,label="(3102)\nthis.addFixture(new utest.TestFixture(test,field,setup,teardown))"];
+n3101 [shape=box,label="(3101)\ncontinue"];
+n3100 [shape=box,label="(3100)\nvar _hx_tmp = ! this.isMethod(test,field)\n@:cond-branch _hx_tmp"];
+n3100 -> n3101[style="dashed",color="gray",label="then"];
+n3100 -> n3102[style="dashed",color="gray",label="next"];
+n3099 [shape=box,label="(3099)\ncontinue"];
+n3098 [shape=box,label="(3098)\nvar field = fields[`]\n` = ` + 1\nvar _hx_tmp = ! StringTools.startsWith(field,prefix)\n@:cond-branch _hx_tmp"];
+n3098 -> n3099[style="dashed",color="gray",label="then"];
+n3098 -> n3100[style="dashed",color="gray",label="next"];
+n3097 [shape=box,label="(3097)\nbreak"];
+n3096 [shape=box,label="(3096)\nvar _hx_tmp = ! ((` < fields.length))\n@:cond-branch _hx_tmp"];
+n3096 -> n3097[style="dashed",color="gray",label="then"];
+n3096 -> n3098[style="dashed",color="gray",label="next"];
+n3095 [shape=box,label="<loop-head>
+(3095)"];
+n3094 [shape=box,label="(3094)\nwhile ((true)) @:block 3096"];
+n3094 -> n3095[style="dashed",color="gray",label="loop-head"];
+n3094 -> n3096[style="dashed",color="gray",label="loop-body"];
+n3094 -> n3103[style="dashed",color="gray",label="next"];
+n3093 [shape=box,label="(3093)\nvar _hx_tmp = this.globalPattern != null\n@:cond-branch _hx_tmp"];
+n3093 -> n3104[style="dashed",color="gray",label="then"];
+n3093 -> n3105[style="dashed",color="gray",label="else"];
+n3093 -> n3106[style="dashed",color="gray",label="next"];
+n3092 [shape=box,label="(3092)\nvar ` = 0"];
+n3092 -> n3094[style="dashed",color="gray",label="merge"];
+n3091 [shape=box,label="(3091)\n@:cond-branch _hx_tmp"];
+n3091 -> n3092[style="dashed",color="gray",label="then"];
+n3091 -> n3093[style="dashed",color="gray",label="else"];
+n3091 -> n3119[style="dashed",color="gray",label="next"];
+n3090 [shape=box,label="(3090)\n_hx_tmp = false"];
+n3089 [shape=box,label="(3089)\n_hx_tmp = pattern == null"];
+n3088 [shape=box,label="(3088)\nvar _hx_tmp = Type.getClass(test)\nvar fields = Type.getInstanceFields(_hx_tmp)\nvar _hx_tmp\nvar _hx_tmp = this.globalPattern == null\n@:cond-branch _hx_tmp"];
+n3088 -> n3089[style="dashed",color="gray",label="then"];
+n3088 -> n3090[style="dashed",color="gray",label="else"];
+n3088 -> n3091[style="dashed",color="gray",label="next"];
+n3087 [shape=box,label="(3087)\nteardown = null"];
+n3086 [shape=box,label="(3086)\nvar _hx_tmp = ! this.isMethod(test,teardown)\n@:cond-branch _hx_tmp"];
+n3086 -> n3087[style="dashed",color="gray",label="then"];
+n3086 -> n3088[style="dashed",color="gray",label="next"];
+n3085 [shape=box,label="(3085)\nsetup = null"];
+n3084 [shape=box,label="(3084)\nvar _hx_tmp = ! this.isMethod(test,setup)\n@:cond-branch _hx_tmp"];
+n3084 -> n3085[style="dashed",color="gray",label="then"];
+n3084 -> n3086[style="dashed",color="gray",label="next"];
+n3083 [shape=box,label="(3083)\nthrow \"can't add a null object as a test case\""];
+n3082 [shape=box,label="<function-end>
+(3082)"];
+n3081 [shape=box,label="<function-begin>
+(3081)\nvar _hx_tmp = ! Reflect.isObject(test)\n@:cond-branch _hx_tmp"];
+n3081 -> n3083[style="dashed",color="gray",label="then"];
+n3081 -> n3084[style="dashed",color="gray",label="next"];
+n1 [shape=box,label="<root>
+(1)"];
+}

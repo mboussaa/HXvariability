@@ -1,0 +1,339 @@
+digraph graphname {
+	node [shape=plaintext];
+n3119[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3119) BKNormal</td></tr>
+	<tr><td port="ep0" align="left">pattern = \"phi\"(pattern,pattern)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3118[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3118) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3117[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3117) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3116[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3116) BKNormal</td></tr>
+	<tr><td port="e0" align="left">this.addFixture(new utest.TestFixture(test,field,setup,teardown))</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3115[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3115) BKConditional</td></tr>
+	<tr><td port="e0" align="left">continue</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3114[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3114) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! this.isMethod(test,field)</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3113[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3113) BKConditional</td></tr>
+	<tr><td port="e0" align="left">continue</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3112[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3112) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var field = fields[`]</td></tr>
+	<tr><td port="e1" align="left">` = ` + 1</td></tr>
+	<tr><td port="e2" align="left">var _hx_tmp = ! pattern.match(field)</td></tr>
+	<tr><td port="e3" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3111[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3111) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3110[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3110) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((` &lt; fields.length))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3109[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3109) BKLoopHead</td></tr>
+	<tr><td port="ep0" align="left">` = \"phi\"(`,`,`,`)</td></tr>
+	<tr><td port="ep1" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="ep2" align="left">field = \"phi\"(field,field,field,field)</td></tr>
+	<tr><td port="ep3" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="ep4" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3108[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3108) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 3110</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3107[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3107) BKSub</td></tr>
+	<tr><td port="e0" align="left">var ` = 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3106[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3106) BKNormal</td></tr>
+	<tr><td port="ep0" align="left">pattern = \"phi\"(pattern,pattern)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3105[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3105) BKConditional</td></tr>
+	<tr><td port="e0" align="left">pattern = pattern</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3104[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3104) BKConditional</td></tr>
+	<tr><td port="e0" align="left">pattern = this.globalPattern</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3103[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3103) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3102[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3102) BKNormal</td></tr>
+	<tr><td port="e0" align="left">this.addFixture(new utest.TestFixture(test,field,setup,teardown))</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3101[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3101) BKConditional</td></tr>
+	<tr><td port="e0" align="left">continue</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3100[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3100) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! this.isMethod(test,field)</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3099[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3099) BKConditional</td></tr>
+	<tr><td port="e0" align="left">continue</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3098[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3098) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var field = fields[`]</td></tr>
+	<tr><td port="e1" align="left">` = ` + 1</td></tr>
+	<tr><td port="e2" align="left">var _hx_tmp = ! StringTools.startsWith(field,prefix)</td></tr>
+	<tr><td port="e3" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3097[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3097) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3096[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3096) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((` &lt; fields.length))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3095[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3095) BKLoopHead</td></tr>
+	<tr><td port="ep0" align="left">` = \"phi\"(`,`,`,`)</td></tr>
+	<tr><td port="ep1" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="ep2" align="left">field = \"phi\"(field,field,field,field)</td></tr>
+	<tr><td port="ep3" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="ep4" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp,_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3094[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3094) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 3096</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3093[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3093) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = this.globalPattern != null</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3092[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3092) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var ` = 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3091[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3091) BKNormal</td></tr>
+	<tr><td port="ep0" align="left">_hx_tmp = \"phi\"(_hx_tmp,_hx_tmp)</td></tr>
+	<tr><td port="e0" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3090[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3090) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = false</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3089[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3089) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = pattern == null</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3088[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3088) BKNormal</td></tr>
+	<tr><td port="ep0" align="left">teardown = \"phi\"(teardown,teardown)</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = Type.getClass(test)</td></tr>
+	<tr><td port="e1" align="left">var fields = Type.getInstanceFields(_hx_tmp)</td></tr>
+	<tr><td port="e2" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e3" align="left">var _hx_tmp = this.globalPattern == null</td></tr>
+	<tr><td port="e4" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3087[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3087) BKConditional</td></tr>
+	<tr><td port="e0" align="left">teardown = null</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3086[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3086) BKNormal</td></tr>
+	<tr><td port="ep0" align="left">setup = \"phi\"(setup,setup)</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! this.isMethod(test,teardown)</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3085[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3085) BKConditional</td></tr>
+	<tr><td port="e0" align="left">setup = null</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3084[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3084) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! this.isMethod(test,setup)</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3083[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3083) BKConditional</td></tr>
+	<tr><td port="e0" align="left">throw \"can't add a null object as a test case\"</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3082[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3082) BKFunctionEnd</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3081[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3081) BKFunctionBegin</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! Reflect.isObject(test)</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1) BKRoot</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1:out -> n3081:in[label="CFGFunction"];
+n3081:out -> n3084:in[label="CFGCondElse"];
+n3081:out -> n3083:in[label="CFGCondBranch true"];
+n3083:out -> n3082:in[label="CFGGoto"];
+n3084:out -> n3086:in[label="CFGCondElse"];
+n3084:out -> n3085:in[label="CFGCondBranch true"];
+n3085:out -> n3086:in[label="CFGGoto"];
+n3086:out -> n3088:in[label="CFGCondElse"];
+n3086:out -> n3087:in[label="CFGCondBranch true"];
+n3087:out -> n3088:in[label="CFGGoto"];
+n3088:out -> n3090:in[label="CFGCondElse"];
+n3088:out -> n3089:in[label="CFGCondBranch true"];
+n3089:out -> n3091:in[label="CFGGoto"];
+n3091:out -> n3093:in[label="CFGCondElse"];
+n3091:out -> n3092:in[label="CFGCondBranch true"];
+n3092:out -> n3094:in[label="CFGGoto"];
+n3094:out -> n3095:in[label="CFGGoto"];
+n3095:out -> n3096:in[label="CFGGoto"];
+n3096:out -> n3098:in[label="CFGCondElse"];
+n3096:out -> n3097:in[label="CFGCondBranch true"];
+n3097:out -> n3103:in[label="CFGGoto"];
+n3103:out -> n3119:in[label="CFGGoto"];
+n3098:out -> n3100:in[label="CFGCondElse"];
+n3098:out -> n3099:in[label="CFGCondBranch true"];
+n3099:out -> n3095:in[label="CFGGoto"];
+n3100:out -> n3102:in[label="CFGCondElse"];
+n3100:out -> n3101:in[label="CFGCondBranch true"];
+n3101:out -> n3095:in[label="CFGGoto"];
+n3102:out -> n3095:in[label="CFGGoto"];
+n3119:out -> n3082:in[label="CFGGoto"];
+n3093:out -> n3105:in[label="CFGCondElse"];
+n3093:out -> n3104:in[label="CFGCondBranch true"];
+n3104:out -> n3106:in[label="CFGGoto"];
+n3106:out -> n3107:in[label="CFGGoto"];
+n3107:out -> n3108:in[label="CFGGoto"];
+n3108:out -> n3109:in[label="CFGGoto"];
+n3109:out -> n3110:in[label="CFGGoto"];
+n3110:out -> n3112:in[label="CFGCondElse"];
+n3110:out -> n3111:in[label="CFGCondBranch true"];
+n3111:out -> n3117:in[label="CFGGoto"];
+n3117:out -> n3118:in[label="CFGGoto"];
+n3118:out -> n3119:in[label="CFGGoto"];
+n3112:out -> n3114:in[label="CFGCondElse"];
+n3112:out -> n3113:in[label="CFGCondBranch true"];
+n3113:out -> n3109:in[label="CFGGoto"];
+n3114:out -> n3116:in[label="CFGCondElse"];
+n3114:out -> n3115:in[label="CFGCondBranch true"];
+n3115:out -> n3109:in[label="CFGGoto"];
+n3116:out -> n3109:in[label="CFGGoto"];
+n3105:out -> n3106:in[label="CFGGoto"];
+n3090:out -> n3091:in[label="CFGGoto"];
+n3086:ep0 -> n3084:e0[color=lightblue,constraint=false];
+n3088:ep0 -> n3086:e0[color=lightblue,constraint=false];
+n3106:ep0 -> n3105:e0[color=lightblue,constraint=false];
+n3106:ep0 -> n3119:ep0[color=lightblue,constraint=false];
+n3106:ep0 -> n3089:e0[color=lightblue,constraint=false];
+n3085:e0 -> n3086:ep0[color=lightblue,constraint=false];
+n3086:ep0 -> n3116:e0[color=lightblue,constraint=false];
+n3086:ep0 -> n3102:e0[color=lightblue,constraint=false];
+n3087:e0 -> n3088:ep0[color=lightblue,constraint=false];
+n3088:ep0 -> n3116:e0[color=lightblue,constraint=false];
+n3088:ep0 -> n3102:e0[color=lightblue,constraint=false];
+n3088:e1 -> n3112:e0[color=lightblue,constraint=false];
+n3088:e1 -> n3110:e0[color=lightblue,constraint=false];
+n3088:e1 -> n3098:e0[color=lightblue,constraint=false];
+n3088:e1 -> n3096:e0[color=lightblue,constraint=false];
+n3089:e0 -> n3091:ep0[color=lightblue,constraint=false];
+n3092:e0 -> n3095:ep0[color=lightblue,constraint=false];
+n3095:ep0 -> n3098:e1[color=lightblue,constraint=false];
+n3095:ep0 -> n3098:e0[color=lightblue,constraint=false];
+n3095:ep0 -> n3096:e0[color=lightblue,constraint=false];
+n3096:e0 -> n3095:ep1[color=lightblue,constraint=false];
+n3096:e0 -> n3095:ep1[color=lightblue,constraint=false];
+n3096:e0 -> n3095:ep1[color=lightblue,constraint=false];
+n3098:e0 -> n3095:ep2[color=lightblue,constraint=false];
+n3098:e0 -> n3102:e0[color=lightblue,constraint=false];
+n3098:e0 -> n3095:ep2[color=lightblue,constraint=false];
+n3098:e0 -> n3100:e0[color=lightblue,constraint=false];
+n3098:e0 -> n3095:ep2[color=lightblue,constraint=false];
+n3098:e1 -> n3095:ep0[color=lightblue,constraint=false];
+n3098:e1 -> n3095:ep0[color=lightblue,constraint=false];
+n3098:e1 -> n3095:ep0[color=lightblue,constraint=false];
+n3098:e2 -> n3095:ep3[color=lightblue,constraint=false];
+n3098:e2 -> n3095:ep3[color=lightblue,constraint=false];
+n3098:e2 -> n3095:ep3[color=lightblue,constraint=false];
+n3100:e0 -> n3095:ep4[color=lightblue,constraint=false];
+n3100:e0 -> n3095:ep4[color=lightblue,constraint=false];
+n3104:e0 -> n3106:ep0[color=lightblue,constraint=false];
+n3106:ep0 -> n3112:e2[color=lightblue,constraint=false];
+n3106:ep0 -> n3119:ep0[color=lightblue,constraint=false];
+n3107:e0 -> n3109:ep0[color=lightblue,constraint=false];
+n3109:ep0 -> n3112:e1[color=lightblue,constraint=false];
+n3109:ep0 -> n3112:e0[color=lightblue,constraint=false];
+n3109:ep0 -> n3110:e0[color=lightblue,constraint=false];
+n3110:e0 -> n3109:ep1[color=lightblue,constraint=false];
+n3110:e0 -> n3109:ep1[color=lightblue,constraint=false];
+n3110:e0 -> n3109:ep1[color=lightblue,constraint=false];
+n3112:e0 -> n3109:ep2[color=lightblue,constraint=false];
+n3112:e0 -> n3116:e0[color=lightblue,constraint=false];
+n3112:e0 -> n3109:ep2[color=lightblue,constraint=false];
+n3112:e0 -> n3114:e0[color=lightblue,constraint=false];
+n3112:e0 -> n3109:ep2[color=lightblue,constraint=false];
+n3112:e1 -> n3109:ep0[color=lightblue,constraint=false];
+n3112:e1 -> n3109:ep0[color=lightblue,constraint=false];
+n3112:e1 -> n3109:ep0[color=lightblue,constraint=false];
+n3112:e2 -> n3109:ep3[color=lightblue,constraint=false];
+n3112:e2 -> n3109:ep3[color=lightblue,constraint=false];
+n3112:e2 -> n3109:ep3[color=lightblue,constraint=false];
+n3114:e0 -> n3109:ep4[color=lightblue,constraint=false];
+n3114:e0 -> n3109:ep4[color=lightblue,constraint=false];
+n3105:e0 -> n3106:ep0[color=lightblue,constraint=false];
+n3090:e0 -> n3091:ep0[color=lightblue,constraint=false];
+}

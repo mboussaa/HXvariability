@@ -1,0 +1,80 @@
+digraph graphname {
+n1533 [shape=box,label="(1533)\nlist.prev = null\nhaxe.MainLoop.pending = list"];
+n1532 [shape=box,label="(1532)\nLoops: 0\ninsize = insize * 2"];
+n1531 [shape=box,label="(1531)\nLoops: 0\nbreak"];
+n1530 [shape=box,label="(1530)\nLoops: 0\ntail.next = null\nvar _hx_tmp = nmerges <= 1\n@:cond-branch _hx_tmp"];
+n1529 [shape=box,label="(1529)\nLoops: 1, 0\np = q"];
+n1528 [shape=box,label="(1528)\nLoops: 3, 1, 0\ne.prev = tail\ntail = e"];
+n1527 [shape=box,label="(1527)\nLoops: 3, 1, 0\nlist = e"];
+n1526 [shape=box,label="(1526)\nLoops: 3, 1, 0\ntail.next = e"];
+n1525 [shape=box,label="(1525)\nLoops: 3, 1, 0\nvar _hx_tmp = tail != null\n@:cond-branch _hx_tmp"];
+n1524 [shape=box,label="(1524)\nLoops: 3, 1, 0"];
+n1523 [shape=box,label="(1523)\nLoops: 3, 1, 0"];
+n1522 [shape=box,label="(1522)\nLoops: 3, 1, 0\nqsize = qsize - 1"];
+n1521 [shape=box,label="(1521)\nLoops: 3, 1, 0"];
+n1520 [shape=box,label="(1520)\nLoops: 3, 1, 0\npsize = psize - 1"];
+n1519 [shape=box,label="(1519)\nLoops: 3, 1, 0\ne = q\nq = q.next"];
+n1518 [shape=box,label="(1518)\nLoops: 3, 1, 0\ne = p\np = p.next"];
+n1517 [shape=box,label="(1517)\nLoops: 3, 1, 0\n@:cond-branch _hx_tmp"];
+n1516 [shape=box,label="(1516)\nLoops: 3, 1, 0"];
+n1515 [shape=box,label="(1515)\nLoops: 3, 1, 0"];
+n1514 [shape=box,label="(1514)\nLoops: 3, 1, 0\n_hx_tmp = false"];
+n1513 [shape=box,label="(1513)\nLoops: 3, 1, 0\n_hx_tmp = p.nextRun <= q.nextRun"];
+n1512 [shape=box,label="(1512)\nLoops: 3, 1, 0\n_hx_tmp = true"];
+n1511 [shape=box,label="(1511)\nLoops: 3, 1, 0\nvar _hx_tmp = p.priority == q.priority\n@:cond-branch _hx_tmp"];
+n1510 [shape=box,label="(1510)\nLoops: 3, 1, 0\n_hx_tmp = true"];
+n1509 [shape=box,label="(1509)\nLoops: 3, 1, 0\nvar _hx_tmp = ! p.priority > q.priority\n@:cond-branch _hx_tmp"];
+n1508 [shape=box,label="(1508)\nLoops: 3, 1, 0\nvar _hx_tmp = ! _hx_tmp\n@:cond-branch _hx_tmp"];
+n1507 [shape=box,label="(1507)\nLoops: 3, 1, 0\n_hx_tmp = true"];
+n1506 [shape=box,label="(1506)\nLoops: 3, 1, 0\n_hx_tmp = q == null"];
+n1505 [shape=box,label="(1505)\nLoops: 3, 1, 0"];
+n1504 [shape=box,label="(1504)\nLoops: 3, 1, 0\nqsize = qsize - 1"];
+n1503 [shape=box,label="(1503)\nLoops: 3, 1, 0\nvar _hx_tmp\nvar _hx_tmp\nvar _hx_tmp = ! qsize == 0\n@:cond-branch _hx_tmp"];
+n1502 [shape=box,label="(1502)\nLoops: 3, 1, 0\ne = q\nq = q.next"];
+n1501 [shape=box,label="(1501)\nLoops: 3, 1, 0\nvar _hx_tmp = psize == 0\n@:cond-branch _hx_tmp"];
+n1500 [shape=box,label="(1500)\nLoops: 3, 1, 0\nbreak"];
+n1499 [shape=box,label="(1499)\nLoops: 3, 1, 0\nvar _hx_tmp = ! ((_hx_tmp))\n@:cond-branch _hx_tmp"];
+n1498 [shape=box,label="(1498)\nLoops: 3, 1, 0"];
+n1497 [shape=box,label="(1497)\nLoops: 3, 1, 0\n_hx_tmp = false"];
+n1496 [shape=box,label="(1496)\nLoops: 3, 1, 0\n_hx_tmp = q != null"];
+n1495 [shape=box,label="(1495)\nLoops: 3, 1, 0\n_hx_tmp = true"];
+n1494 [shape=box,label="(1494)\nLoops: 3, 1, 0\nvar _hx_tmp = qsize > 0\n@:cond-branch _hx_tmp"];
+n1493 [shape=box,label="(1493)\nLoops: 3, 1, 0\nvar _hx_tmp\nvar _hx_tmp = ! psize > 0\n@:cond-branch _hx_tmp"];
+n1492 [shape=box,label="<loop-head>
+(1492)\nLoops: 3, 1, 0"];
+n1491 [shape=box,label="(1491)\nLoops: 1, 0\nwhile ((true)) @:block 1493"];
+n1490 [shape=box,label="(1490)\nLoops: 1, 0\nqsize = insize"];
+n1489 [shape=box,label="(1489)\nLoops: 1, 0"];
+n1488 [shape=box,label="(1488)\nLoops: 2, 1, 0"];
+n1487 [shape=box,label="(1487)\nLoops: 2, 1, 0\nbreak"];
+n1486 [shape=box,label="(1486)\nLoops: 2, 1, 0\nq = q.next\nvar _hx_tmp = q == null\n@:cond-branch _hx_tmp"];
+n1485 [shape=box,label="(1485)\nLoops: 2, 1, 0\npsize = psize + 1"];
+n1484 [shape=box,label="(1484)\nLoops: 2, 1, 0\n`1 = `1 + 1\nvar i = `1 - 1"];
+n1483 [shape=box,label="(1483)\nLoops: 2, 1, 0\nbreak"];
+n1482 [shape=box,label="(1482)\nLoops: 2, 1, 0\nvar _hx_tmp = ! ((`1 < `))\n@:cond-branch _hx_tmp"];
+n1481 [shape=box,label="<loop-head>
+(1481)\nLoops: 2, 1, 0"];
+n1480 [shape=box,label="(1480)\nLoops: 1, 0\nwhile ((true)) @:block 1482"];
+n1479 [shape=box,label="(1479)\nLoops: 1, 0\nvar `1 = 0\nvar ` = insize"];
+n1478 [shape=box,label="(1478)\nLoops: 1, 0\nq = p\npsize = 0"];
+n1477 [shape=box,label="(1477)\nLoops: 1, 0\nnmerges = nmerges + 1"];
+n1476 [shape=box,label="(1476)\nLoops: 1, 0"];
+n1475 [shape=box,label="(1475)\nLoops: 1, 0\nbreak"];
+n1474 [shape=box,label="(1474)\nLoops: 1, 0\nvar _hx_tmp = ! ((p != null))\n@:cond-branch _hx_tmp"];
+n1473 [shape=box,label="<loop-head>
+(1473)\nLoops: 1, 0"];
+n1472 [shape=box,label="(1472)\nLoops: 0\nwhile ((true)) @:block 1474"];
+n1471 [shape=box,label="(1471)\nLoops: 0\np = list\nlist = null\ntail = null\nnmerges = 0"];
+n1470 [shape=box,label="<loop-head>
+(1470)\nLoops: 0"];
+n1469 [shape=box,label="(1469)\nwhile ((true)) @:block 1471"];
+n1468 [shape=box,label="(1468)\nvar insize = 1\nvar nmerges\nvar psize = 0\nvar qsize = 0\nvar p\nvar q\nvar e\nvar tail"];
+n1467 [shape=box,label="(1467)\nreturn"];
+n1466 [shape=box,label="<function-end>
+(1466)"];
+n1465 [shape=box,label="<function-begin>
+(1465)\nvar list = haxe.MainLoop.pending\nvar _hx_tmp = list == null\n@:cond-branch _hx_tmp"];
+n1 [shape=box,label="<root>
+(1)"];
+n1 -> n1465[label="function"];
+}

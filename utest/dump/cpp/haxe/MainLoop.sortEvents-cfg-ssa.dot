@@ -1,0 +1,376 @@
+digraph graphname {
+	node [shape=plaintext];
+n1533[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1533) BKNormal</td></tr>
+	<tr><td port="e0" align="left">list.prev = null</td></tr>
+	<tr><td port="e1" align="left">haxe.MainLoop.pending = list</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1532[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1532) BKNormal</td></tr>
+	<tr><td port="e0" align="left">insize = insize * 2</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1531[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1531) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1530[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1530) BKNormal</td></tr>
+	<tr><td port="e0" align="left">tail.next = null</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp = nmerges &lt;= 1</td></tr>
+	<tr><td port="e2" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1529[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1529) BKNormal</td></tr>
+	<tr><td port="e0" align="left">p = q</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1528[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1528) BKNormal</td></tr>
+	<tr><td port="e0" align="left">e.prev = tail</td></tr>
+	<tr><td port="e1" align="left">tail = e</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1527[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1527) BKConditional</td></tr>
+	<tr><td port="e0" align="left">list = e</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1526[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1526) BKConditional</td></tr>
+	<tr><td port="e0" align="left">tail.next = e</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1525[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1525) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = tail != null</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1524[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1524) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1523[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1523) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1522[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1522) BKSub</td></tr>
+	<tr><td port="e0" align="left">qsize = qsize - 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1521[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1521) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1520[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1520) BKSub</td></tr>
+	<tr><td port="e0" align="left">psize = psize - 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1519[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1519) BKConditional</td></tr>
+	<tr><td port="e0" align="left">e = q</td></tr>
+	<tr><td port="e1" align="left">q = q.next</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1518[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1518) BKConditional</td></tr>
+	<tr><td port="e0" align="left">e = p</td></tr>
+	<tr><td port="e1" align="left">p = p.next</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1517[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1517) BKNormal</td></tr>
+	<tr><td port="e0" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1516[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1516) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1515[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1515) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1514[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1514) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = false</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1513[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1513) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = p.nextRun &lt;= q.nextRun</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1512[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1512) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1511[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1511) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = p.priority == q.priority</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1510[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1510) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1509[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1509) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! p.priority &gt; q.priority</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1508[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1508) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! _hx_tmp</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1507[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1507) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1506[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1506) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = q == null</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1505[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1505) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1504[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1504) BKSub</td></tr>
+	<tr><td port="e0" align="left">qsize = qsize - 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1503[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1503) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e2" align="left">var _hx_tmp = ! qsize == 0</td></tr>
+	<tr><td port="e3" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1502[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1502) BKConditional</td></tr>
+	<tr><td port="e0" align="left">e = q</td></tr>
+	<tr><td port="e1" align="left">q = q.next</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1501[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1501) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = psize == 0</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1500[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1500) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1499[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1499) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((_hx_tmp))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1498[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1498) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1497[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1497) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = false</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1496[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1496) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = q != null</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1495[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1495) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1494[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1494) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = qsize &gt; 0</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1493[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1493) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp = ! psize &gt; 0</td></tr>
+	<tr><td port="e2" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1492[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1492) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1491[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1491) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 1493</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1490[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1490) BKNormal</td></tr>
+	<tr><td port="e0" align="left">qsize = insize</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1489[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1489) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1488[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1488) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1487[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1487) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1486[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1486) BKNormal</td></tr>
+	<tr><td port="e0" align="left">q = q.next</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp = q == null</td></tr>
+	<tr><td port="e2" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1485[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1485) BKSub</td></tr>
+	<tr><td port="e0" align="left">psize = psize + 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1484[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1484) BKNormal</td></tr>
+	<tr><td port="e0" align="left">`1 = `1 + 1</td></tr>
+	<tr><td port="e1" align="left">var i = `1 - 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1483[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1483) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1482[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1482) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((`1 &lt; `))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1481[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1481) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1480[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1480) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 1482</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1479[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1479) BKSub</td></tr>
+	<tr><td port="e0" align="left">var `1 = 0</td></tr>
+	<tr><td port="e1" align="left">var ` = insize</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1478[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1478) BKNormal</td></tr>
+	<tr><td port="e0" align="left">q = p</td></tr>
+	<tr><td port="e1" align="left">psize = 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1477[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1477) BKSub</td></tr>
+	<tr><td port="e0" align="left">nmerges = nmerges + 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1476[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1476) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1475[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1475) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1474[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1474) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((p != null))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1473[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1473) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1472[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1472) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 1474</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1471[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1471) BKNormal</td></tr>
+	<tr><td port="e0" align="left">p = list</td></tr>
+	<tr><td port="e1" align="left">list = null</td></tr>
+	<tr><td port="e2" align="left">tail = null</td></tr>
+	<tr><td port="e3" align="left">nmerges = 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1470[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1470) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1469[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1469) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 1471</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1468[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1468) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var insize = 1</td></tr>
+	<tr><td port="e1" align="left">var nmerges</td></tr>
+	<tr><td port="e2" align="left">var psize = 0</td></tr>
+	<tr><td port="e3" align="left">var qsize = 0</td></tr>
+	<tr><td port="e4" align="left">var p</td></tr>
+	<tr><td port="e5" align="left">var q</td></tr>
+	<tr><td port="e6" align="left">var e</td></tr>
+	<tr><td port="e7" align="left">var tail</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1467[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1467) BKConditional</td></tr>
+	<tr><td port="e0" align="left">return</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1466[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1466) BKFunctionEnd</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1465[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1465) BKFunctionBegin</td></tr>
+	<tr><td port="e0" align="left">var list = haxe.MainLoop.pending</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp = list == null</td></tr>
+	<tr><td port="e2" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1) BKRoot</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1:out -> n1465:in[label="CFGFunction"];
+}
