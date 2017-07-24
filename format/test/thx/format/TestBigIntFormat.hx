@@ -1,7 +1,5 @@
 package thx.format;
 
-import thx.culture.Culture;
-import thx.culture.Embed;
 import utest.Assert;
 import thx.BigInt;
 using thx.format.BigIntFormat;
