@@ -23,15 +23,12 @@ We use two popular statistical methods to analyze the performance/resource usage
 -We use compiler flags to target diverse software platforms. Furthermore, we apply some predefined compiler options to evaluate the impact of these flags on the generated code. The complete list is available in the file *"target_flags".*
 
 -You can edit it to target more advanced options. In the following the list of options we have applied:
-
 | language/flag |          |          |                     |        |       |    |
 |-----------------|-----------|----------|---------------------|--------|-------|----|
 | C++             | O0        | O1       | O2                  | O3     | Ofast | Os |
-| JAVA            | no-inline | dce=full | no-pattern-matching       | no-opt |       |    |
-| C#              | no-inline | dce=full | no-pattern-matching       | no-opt |       |    |
-| PHP             | no-inline | dce=full | no-pattern-matching | no-opt |       |    |
-
-
+| JAVA            | no-inline | dce=full | no-pattern-matching       | no-opt |dce=no       |    |
+| C#              | no-inline | dce=full | no-pattern-matching       | no-opt |dce=no       |    |
+| PHP             | no-inline | dce=full | no-pattern-matching | no-opt |dce=no       |    |
 ## Testing and monitoring environment
 -We rely on Docker to run test suites on lightweight and isolated containers. We benefit from this technology to make our benchmark environment reproductible for further analysis.
 
