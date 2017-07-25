@@ -84,6 +84,14 @@ To run all test suites across the different software platforms you need to do:
 ```
 ./runAll.sh
 ```
+### How can you extract the information about the memory usage
+```
+./extractAll.sh
+```
+Then:
+```
+./parseAll.sh
+```
 ### Where you can find the non-functional data
 -During code execution the gathered performance and resource usage data are saved in CSV files for further analysis. They are available in:
 > **CSV files:**

@@ -1,0 +1,21 @@
+{
+    "results": [
+        {
+            "series": [
+                {
+                    "name": "memory_usage",
+                    "columns": [
+                        "time",
+                        "max"
+                    ],
+                    "values": [
+                        [
+                            "2017-07-25T18:57:16.146318376Z",
+                            6639616
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

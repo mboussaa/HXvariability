@@ -1,3 +1,10 @@
+cpp/-O0
+cpp/-O1
+cpp/-O2
+cpp/-O3
+cpp/-Ofast
+cpp/-Os
+java/
 php/
 cs/
 java//no-inline
